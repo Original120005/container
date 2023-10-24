@@ -1,0 +1,85 @@
+﻿<Window x:Class="containers_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:containers_2"
+        mc:Ignorable="d"
+        Title="Task" Height="450" Width="800">
+    <Grid>
+        <!-- Определение строк и столбцов -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- для меню -->
+            <RowDefinition Height="*"/>
+            <!-- для левой панели кнопок и текстового поля -->
+            <RowDefinition Height="2*"/>
+            <!-- для правой панели кнопок -->
+            <RowDefinition Height="Auto"/>
+            <!-- для статус бара -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <!-- для левой панели -->
+            <ColumnDefinition Width="2*"/>
+            <!-- для правой панели -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Меню -->
+        <Menu Grid.Row="0" Grid.ColumnSpan="2">
+            <MenuItem Header="MenuItem1"/>
+            <MenuItem Header="MenuItem2"/>
+            <MenuItem Header="MenuItem3"/>
+        </Menu>
+
+        <!-- Левая панель -->
+        <ScrollViewer Grid.Row="1" Grid.Column="0" VerticalScrollBarVisibility="Auto">
+            <Grid Background="#FFF3E2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <!-- Установите фиксированную высоту для кнопок -->
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Content="Operation 1" Margin="5" MinHeight="30"/>
+                <Button Grid.Row="1" Content="Operation 2" Margin="5" MinHeight="30"/>
+                <Button Grid.Row="2" Content="Operation 3" Margin="5" MinHeight="30"/>
+                <Button Grid.Row="3" Content="Operation 4" Margin="5" MinHeight="30"/>
+                <Button Grid.Row="4" Content="Operation 5" Margin="5" MinHeight="30"/>
+            </Grid>
+        </ScrollViewer>
+
+        <!-- Правая панель -->
+        <Grid Grid.Row="1" Grid.RowSpan="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <!-- для текстового поля -->
+                <RowDefinition Height="*"/>
+                <!-- для кнопок -->
+                <RowDefinition Height="*"/>
+                <!-- для нижних кнопок -->
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Row="0" Grid.ColumnSpan="2" Margin="5" />
+
+            <Button Grid.Row="1" Grid.Column="0" Content="1" Margin="5"/>
+            <Button Grid.Row="1" Grid.Column="1" Content="2" Margin="5"/>
+            <Button Grid.Row="2" Grid.Column="0" Content="3" Margin="5"/>
+            <Button Grid.Row="2" Grid.Column="1" Content="4" Margin="5"/>
+        </Grid>
+
+        <!-- Статус бар -->
+        <StatusBar Grid.Row="3" Grid.ColumnSpan="2">
+            <StatusBarItem>
+                <TextBlock Text="Status Bar"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

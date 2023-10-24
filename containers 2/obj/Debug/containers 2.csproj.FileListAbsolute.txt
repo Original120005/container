@@ -1,0 +1,15 @@
+C:\Users\Origi\source\repos\containers 2\bin\Debug\containers 2.exe.config
+C:\Users\Origi\source\repos\containers 2\bin\Debug\containers 2.exe
+C:\Users\Origi\source\repos\containers 2\bin\Debug\containers 2.pdb
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2.csproj.AssemblyReference.cache
+C:\Users\Origi\source\repos\containers 2\obj\Debug\MainWindow.g.cs
+C:\Users\Origi\source\repos\containers 2\obj\Debug\App.g.cs
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2_MarkupCompile.cache
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2_MarkupCompile.lref
+C:\Users\Origi\source\repos\containers 2\obj\Debug\MainWindow.baml
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2.g.resources
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers_2.Properties.Resources.resources
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2.csproj.GenerateResource.cache
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2.csproj.CoreCompileInputs.cache
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2.exe
+C:\Users\Origi\source\repos\containers 2\obj\Debug\containers 2.pdb
